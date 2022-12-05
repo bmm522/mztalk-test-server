@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    register-with-eureka:  true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://15.164.170.14:8761/eureka
+  instance:
+    hostname: mentor-service
+    prefer-ip-address: true
